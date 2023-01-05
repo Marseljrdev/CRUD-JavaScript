@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(221, 223, 220);
+}
+
+.container-main {
+    position: absolute;
+    top: 200px;
+    left: 690px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.header {
+    font-size: 80px;
+    font-family: sans-serif;
+    color: steelblue;
+}
+
+.area-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.button {
+    border: none;
+    padding: 9px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: steelblue;
+    color: #ffff;
+    transition: all 0.5s;
+}
